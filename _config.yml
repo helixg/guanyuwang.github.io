@@ -1,7 +1,7 @@
 # Basic
-title: Guanyu Wang
-subtitle: Weakness and Ignorance Do Not Constitute the Biggest Obstacle...Arrogance Does
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+title: Guanyu
+subtitle: 弱小和无知不是生存的最大障碍...傲慢才是
+
 description: Vno Jekyll is a port of my Ghost theme vno.
 creator: <a href="http://onev.cat">@onevcat</a>
 
@@ -37,11 +37,11 @@ comment:
     
 # Social
 social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
+    weibo: http://weibo.com/2939340205
+    github: https://github.com/helixg
+    twitter: https://twitter.com/ShEnpoHelix
     gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    mail: shenpo5480@gmail.com
 
 # Google Analytics
 ga:
