@@ -2,7 +2,6 @@
 layout: post
 title:  Trip to Prague
 date:   2018-06-01 11:29:08.000000000 +0800
-categories: ICA NLP
 comments: true
 ---
 
@@ -10,9 +9,12 @@ comments: true
 The lecture I presented during the conference was a shortened version, whereas I’ve prepared a lot on the technical aspect.
 Today I will introduce you with something interesting about the technology I applied to this paper.
 
-###Co-word analysis by word-embeddings
+####Co-word analysis by word-embeddings
+
 Traditionally, the co-word analysis usually achieved by building matrix. It’s powerful when the dataset is extremely small. Or the content you focus on are merely some specific words(So the others could be ignored). If you want to dig sth out from mass unstructured texts, the co-word matrix building task will become unachievable.Under this circumstance, another path should be developed. 
-###From One-Hot to Word Embedding
+
+####From One-Hot to Word Embedding
+
 No matter which approach do you choose , the first step of the computer-based text analysis is always to represent word by numbers.
 There are two typical methods to do the word representation. The first one is ‘one hot’ representation. Generally speaking, the co-word matrix could be clustered as a kind of one-hot representation. Unfortunately, this method can not present the structure of texts. It will cause the ‘word gap’ and the ‘curse of dimensionality’. It’s high dimensional and the synonyms within texts couldn’t be presented.
 If you want to represent the following sentence:
@@ -26,8 +28,11 @@ Each word in this sentence will be marked by a specific number.
 	‘most’:   0001000000
 	 ……
 	‘Earth’:  0000000001
+
 Imagine you need to analyze texts with millions of words. Definitely disaster isn’t it?
-###Distributional Representation
+
+####Distributional Representation
+
 Over the past half century, the statistical based method has become the main stream of the NLP domain.  
 In 1954,  the distributional hypothesis was proposed by [Harris](https://www.tandfonline.com/doi/pdf/10.1080/00437956.1954.11659520). He suggested that the word sharing similar contexts may be synonyms.  3 years later, Firth improved this hypothesis, he suggests that ‘a word is characterized by the company it keeps ’. These concepts are the basis of the current statistical based NLP works.
 The distributional representation approach believes that the words around the keywords could describe the texts. Each word could be represented by a bunch of  numeric numbers(Data scientists call it word vector or word embedding). 
