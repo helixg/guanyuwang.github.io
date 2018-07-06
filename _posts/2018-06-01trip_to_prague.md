@@ -2,7 +2,9 @@
 layout: post
 title:  "Trip to Prague"
 date:   2018-06-01 11:29:08 +0800
-categories: ICA NLP
+categories: 
+-ICA 
+-NLP
 ---
 #Trip to Prague
 
@@ -31,10 +33,15 @@ Over the past half century, the statistical based method has become the main str
 In 1954,  the distributional hypothesis was proposed by [Harris](https://www.tandfonline.com/doi/pdf/10.1080/00437956.1954.11659520). He suggested that the word sharing similar contexts may be synonyms.  3 years later, Firth improved this hypothesis, he suggests that ‘a word is characterized by the company it keeps ’. These concepts are the basis of the current statistical based NLP works.
 The distributional representation approach believes that the words around the keywords could describe the texts. Each word could be represented by a bunch of  numeric numbers(Data scientists call it word vector or word embedding). 
 Assuming we use multiple variables to describe words.
-![](word2vec_neurons.png)
+> George(a,b,c,d,e)
+> 
+> Mary(a,b,c,d,e)
+> 
+> ……
+![](https://ws3.sinaimg.cn/large/006tKfTcgy1fszxixfbx0j31gm0uiww4.jpg)
 And Word2Vec is the most famous DR algorithm.
 Word2Vec is a tool training word embeddings. It’s powerful and user friendly.  One of the most famous explanation of word2vec is this:
-queen by king is equal to woman by man.
-![](word2vec.png)
+> 	Queen - King = Woman - Man
+![](https://ws2.sinaimg.cn/large/006tKfTcgy1fszxji005aj30ke093gm6.jpg)
 
 If we applied this tool dealing with small datasets like what we’ve done in this research, we will get the co-word network. 
