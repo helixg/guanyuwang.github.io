@@ -1,15 +1,16 @@
 ---
 layout: post
-title:  "Trip to Prague"
-date:   2018-06-01 11:29:08 +0800
+title:  Trip to Prague
+date:   2018-06-01 11:29:08.000000000 +0800
 categories: ICA NLP
+comments: true
 ---
-#Trip to Prague
+
 
 The lecture I presented during the conference was a shortened version, whereas I’ve prepared a lot on the technical aspect.
 Today I will introduce you with something interesting about the technology I applied to this paper.
 
-##Co-word analysis by word-embeddings
+###Co-word analysis by word-embeddings
 Traditionally, the co-word analysis usually achieved by building matrix. It’s powerful when the dataset is extremely small. Or the content you focus on are merely some specific words(So the others could be ignored). If you want to dig sth out from mass unstructured texts, the co-word matrix building task will become unachievable.Under this circumstance, another path should be developed. 
 ###From One-Hot to Word Embedding
 No matter which approach do you choose , the first step of the computer-based text analysis is always to represent word by numbers.
