@@ -2,9 +2,7 @@
 layout: post
 title:  "Trip to Prague"
 date:   2018-06-01 11:29:08 +0800
-categories: 
--ICA 
--NLP
+categories: ICA NLP
 ---
 #Trip to Prague
 
