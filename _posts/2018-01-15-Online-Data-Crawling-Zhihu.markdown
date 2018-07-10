@@ -11,7 +11,7 @@ comments: true
 To analysis the online sciety, we must acquire enough raw data. The best way is asking the owner of the dataset. If that is impossible, we may need to craw them bare-handed!
 
 ## What is Zhihu 
-Zhihu is a Chinese question-and-answer website where questions are created, answered, edited and organized by the community of its users. Its [website](zhihu.com), was launched on January 26, 2011. The number of registered users of Zhihu had exceeded 100 million by the end of 2017 with 25 million DAU(daily active user).
+Zhihu is a Chinese question-and-answer website where questions are created, answered, edited and organized by the community of its users. Its [website](https://www.zhihu.com), was launched on January 26, 2011. The number of registered users of Zhihu had exceeded 100 million by the end of 2017 with 25 million DAU(daily active user).
 
 How to Get the Data
 
