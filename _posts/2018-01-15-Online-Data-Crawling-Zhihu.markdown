@@ -3,6 +3,7 @@ layout: post
 title:  Online Data Crawling:Zhihu
 date:   2018-01-15 23:42:09.000000000 +0800
 comments: true
+categories: -data crawling
 ---
 
 > Data in the 21st Century is like Oil in the 18th Century: an immensely, untapped valuable asset.
